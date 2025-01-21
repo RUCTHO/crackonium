@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "crackonium",
+	"version": "${version}",
+	"name": "Crackonium",
+	"description": "This is the official Crackonium mod. It is packed full of new things!",
+	"authors": [
+		"Rouec"
+	],
+	"contact": {
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GNU GPLv3",
+	"icon": "assets/crackonium/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.rouec.crackonium.Crackonium"
+		],
+		"fabric-datagen": [
+			"com.rouec.crackonium.CrackoniumDataGenerator"
+		],
+		"client": [
+			"com.rouec.crackonium.CrackoniumClient"
+		]
+	},
+	"mixins": [
+		"crackonium.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
