@@ -11,6 +11,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     public static final Item LITHIUM_CHUNK = registerItem("lithium_chunk", new Item(new Item.Settings()));
+    public static final Item LITHIUM_INGOT = registerItem("lithium_ingot", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Crackonium.MOD_ID, name), item);
@@ -21,6 +22,7 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(LITHIUM_CHUNK);
+            entries.add(LITHIUM_INGOT);
         });
     }
 }
