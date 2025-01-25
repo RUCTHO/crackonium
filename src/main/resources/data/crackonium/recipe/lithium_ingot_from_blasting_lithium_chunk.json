@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "group": "metals",
+  "ingredient": {
+    "item": "crackonium:lithium_chunk"
+  },
+  "result": {
+    "id": "crackonium:lithium_ingot"
+  }
+}

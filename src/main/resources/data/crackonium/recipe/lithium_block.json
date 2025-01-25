@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "mics",
+  "key": {
+    "#": {
+      "item": "crackonium:lithium_ingot"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "crackonium:lithium_block"
+  }
+}

@@ -3,6 +3,8 @@
   "item.crackonium.lithium_ingot": "Lithium Ingot",
 
   "block.crackonium.lithium_block": "Block of Lithium",
+  "block.crackonium.lithium_ore": "Lithium Ore",
+  "block.crackonium.deepslate_lithium_ore": "Deepslate Lithium Ore",
 
   "itemgroup.crackonium.metals": "Metals"
 }
