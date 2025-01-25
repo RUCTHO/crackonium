@@ -1,5 +1,7 @@
 package com.rouec.crackonium;
 
+import com.rouec.crackonium.block.ModBlocks;
+import com.rouec.crackonium.item.ModItemGroups;
 import com.rouec.crackonium.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -12,7 +14,9 @@ public class Crackonium implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 		LOGGER.info("Crackonium initialized successfully");
 	}
 }

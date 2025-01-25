@@ -1,4 +1,8 @@
 {
   "item.crackonium.lithium_chunk": "Chunk of Lithium",
-  "item.crackonium.lithium_ingot": "Lithium Ingot"
+  "item.crackonium.lithium_ingot": "Lithium Ingot",
+
+  "block.crackonium.lithium_block": "Block of Lithium",
+
+  "itemgroup.crackonium.metals": "Metals"
 }
